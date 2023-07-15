@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+	position: fixed;
+	left: 0;
+	/* overflow-x: hidden; */
+	/* z-index: 1; */
+	width: 300px;
+	height: 100vh;
+	background-color: #0c0e10;
+	color: #ffffff;
+	/* float: left; */
+}
+
+.sidebar .first {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #1c2025;
+}
+
+.sidebar .first img {
+	width: 60%;
+}
+
+.sidebar .first h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.sidebar .first p {
+	color: #ff2424;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.sidebar .second {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #1c2025;
+}
+
+.sidebar .second h3 {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sidebar .second ol,
+.sidebar .third ol {
+	padding-left: 50px;
+	margin-top: 20px;
+}
+
+.sidebar .second ol li {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.sidebar .third {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.sidebar .third h3 {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sidebar .third ol li {
+	font-size: 16px;
+	font-weight: 400;
+}

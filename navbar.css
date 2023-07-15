@@ -1,0 +1,56 @@
+.main .navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #191d20;
+	padding: 15px;
+}
+
+.main .navbar .input {
+	background-color: #272a30;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.main .navbar .input img {
+	width: 20px;
+}
+
+.main .navbar .input input {
+	background-color: #272a30;
+	border: none;
+	outline: none;
+	padding-left: 15px;
+	width: 50vw;
+	color: white;
+	/* width: 800px; */
+}
+
+.main .navbar img {
+	width: 40px;
+}
+
+.main .navbar .signup {
+	background-color: #ff2424;
+	color: white;
+	padding: 10px 50px;
+	border-radius: 5px;
+	border: none;
+}
+
+.main .navbar .login {
+	background-color: #ff2424;
+	color: white;
+	padding: 10px 50px;
+	border-radius: 5px;
+	border: none;
+}
+
+body {
+	background-color: #111315;
+}
+
+.wallpaper {
+	padding: 20px;
+}
